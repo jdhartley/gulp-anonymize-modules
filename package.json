@@ -1,0 +1,38 @@
+{
+  "name": "gulp-anonymize-modules",
+  "version": "1.0.0",
+  "description": " A gulp stream that removes defined names for AMD modules, making them anonymous",
+  "keywords": [
+    "gulp",
+    "amd",
+    "remove",
+    "define",
+    "anonymous",
+    "modules",
+    "named",
+    "names"
+  ],
+  "main": "dist/gulp-anonymize-modules.js",
+  "author": "JD Hartley <jdhrtl@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdhartley/gulp-anonymize-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdhartley/gulp-anonymize-modules/issues"
+  },
+  "scripts": {
+    "prepublish": "gulp"
+  },
+  "homepage": "https://github.com/jdhartley/gulp-anonymize-modules#readme"
+}
