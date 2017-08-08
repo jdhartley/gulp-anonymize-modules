@@ -15,7 +15,7 @@ var gulp = require('gulp'),
     anonymizeModules = require('gulp-anonymize-modules');
 
 gulp.task('default', function() {
-    gulp.src('lib/**/*')
+    return gulp.src('lib/**/*')
         .pipe(anonymizeModules)
         .pipe(gulp.dest('dest'));
 });
